@@ -23,7 +23,7 @@ public:
     void setData(const vector<unsigned int>& dataInfo);
     void setStudent(const vector<string>& studentInfo);
     void setWaterNumber(const double waterNumber);
-    ~Note(){};
+    ~Note() = default;
 private:
     vector<unsigned int> dataInfo_;
     vector<string> studentInfo_;
