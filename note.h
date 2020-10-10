@@ -1,5 +1,5 @@
-#ifndef TREE_H
-#define TREE_H
+#ifndef NOTE_H
+#define NOTE_H
 #include <vector>
 #include <string>
 
@@ -30,4 +30,4 @@ private:
     double waterNumber_;
 };
 
-#endif // TREE_H
+#endif // NOTE_H
